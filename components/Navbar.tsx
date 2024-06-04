@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="bg-primary dark:bg-slate-700 py-2 px-5 flex justify-between items-center text-white">
       <Link href="/">
-        <div>LOGO</div>
+        <div>Xtreme Burgers</div>
       </Link>
       <DropdownMenu>
         <DropdownMenuTrigger className="focus:outline-none">
