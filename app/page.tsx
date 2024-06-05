@@ -6,7 +6,7 @@ import { Folders, List, Newspaper } from "lucide-react";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col justify-between gap-5 mr-5 md:flex-row">
+      <div className="flex flex-col justify-between gap-y-5 md:flex-row">
         <DashBoardCard
           icon={<List className="text-slate-500" size={72} />}
           title="Orders"
