@@ -29,7 +29,6 @@ const PostsTable = ({ limit, title }: DataTableProps) => {
     <div className="mt-10">
       <h3 className="text-2xl mb-4 font-semibold">{title ? title : "Posts"}</h3>
       <Table>
-        <TableCaption>List of Recent Posts</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead>Title</TableHead>
