@@ -37,7 +37,7 @@ const PostsTable = ({ limit, title }: DataTableProps) => {
             <TableHead className="hidden md:table-cell text-right">
               Date
             </TableHead>
-            <TableHead className="hidden md:table-cell text-right">
+            <TableHead className="text-right">
               View
             </TableHead>
           </TableRow>
@@ -51,7 +51,7 @@ const PostsTable = ({ limit, title }: DataTableProps) => {
                 <TableCell className="hidden md:table-cell text-right">
                   {date}
                 </TableCell>
-                <TableCell className="hidden md:table-cell text-right">
+                <TableCell className="text-right">
                   <Link href={`/posts/edit/${id}`}>
                     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-xs">
                       Edit

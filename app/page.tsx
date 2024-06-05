@@ -1,3 +1,4 @@
+import AnalyticsChart from "@/components/dashboard/AnalyticsChart";
 import DashBoardCard from "@/components/dashboard/DashBoardCard";
 import PostsTable from "@/components/posts/PostsTable";
 import { Folders, List, Newspaper } from "lucide-react";
@@ -27,6 +28,7 @@ export default function Home() {
           count={100}
         />
       </div>
+      <AnalyticsChart />
       <PostsTable title="Latest Posts" limit={5} />
     </>
   );
