@@ -43,8 +43,8 @@ const PostEditPage = ({ params: { id } }: PostEditPageProps) => {
 
   const handleSubmit = (values: z.infer<typeof schema>) => {
     toast({
-      title: "Post Updated",
-      description: "Friday, February 10, 2023 at 5:57 PM",
+      title: "Post has been Updated",
+      description: `Updated by ${post?.author} on ${post?.date}`,
       action: <ToastAction altText="Goto schedule to undo">Undo</ToastAction>,
     });
   };
